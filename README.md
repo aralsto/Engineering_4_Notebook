@@ -15,4 +15,9 @@ programs like these it's far easier to just assume that errors are caused by use
 This assignment was to create a program in Python that, when given two numbers "a" and "b," would return the results of the operations "a+b," "a-b," "a*b," "a/b," and "a%b." It was required that
 a function return one operation at a time, and not print the result within the function. This meant calling the function 5 times with a different parameter each time, then printing that result after
 each call. Other than that, there isn't much to say. The notes about exiting the program and excepting errors from my first assignment still stands, and from now on will not be mentioned (unless an
-assignment does something differently in that regard). Here is my [code](https://github.com/Engineering_4_Notebook/blob/master/Python/calculator.py).
+assignment does something differently in that regard). Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/calculator.py).
+
+### Quadratic Solver
+This assignment was to create a program in Python that when given the coefficients to a polynomial (ax^2 + bx + c, where "a," "b," and "c" are the coefficients) would return the real roots if they existed. This was
+done by first taking the determinant of the quadratic (b^2 - 4ac) and performing the quadratic formula if it is positive. Otherwise the user recieves a message telling them that no real roots exist. There is not much
+else to say about this assignment, so here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/quadraticSolver.py).
