@@ -21,3 +21,8 @@ assignment does something differently in that regard). Here is my [code](https:/
 This assignment was to create a program in Python that when given the coefficients to a polynomial (ax^2 + bx + c, where "a," "b," and "c" are the coefficients) would return the real roots if they existed. This was
 done by first taking the determinant of the quadratic (b^2 - 4ac) and performing the quadratic formula if it is positive. Otherwise the user recieves a message telling them that no real roots exist. There is not much
 else to say about this assignment, so here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/quadraticSolver.py).
+
+### Strings and Loops
+This assignment was to create a program in Python that would spit back whatever input the user gave it letter by letter, split on spaces. I split the input on spaces, giving me a list of strings. For every element
+of the list, I used the list() command on that element. That split the strings into lists of single characters, which I then printed in a for loop. After printing out the letters of a word, I printed three dashes
+if it was not the last word in the overall list. Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/stringsAndLoops.py).
