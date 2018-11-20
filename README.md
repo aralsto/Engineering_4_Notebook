@@ -31,3 +31,7 @@ if it was not the last word in the overall list. Here is my [code](https://githu
 This assignment was to blink two LEDs 10 times with the GPIO pins on the Pi using a bash script. I soldered male connectors to the Pi and hooked it up to a t-cobbler using a ribbon connector. From there, all I had to do
 was wire up two LEDs like normal (the only issue being the different numbering of the pins in the bash script and on the t-cobbler) and write the simple script. Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Scripts/gpioLED.sh)
 and a useful [website](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) with pin diagrams to use for the bash scripts. This becomes unneccessary in Python with the GPIO.setmode() function.
+
+### GPIO Pins - Python
+This was exactly the same as the last assignment, but in python. The only thing to note is that I used GPIO.setmode(BCM) in order to get the pin numbers to match up with the t-cobbler. Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/gpioLED_Python.py)
+
