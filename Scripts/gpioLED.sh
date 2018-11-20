@@ -8,5 +8,6 @@ gpio write 3 0
 sleep 1
 gpio write 0 0
 gpio write 3 1
-sleep 1
+sleep 10
 done
+gpio write 3 0
