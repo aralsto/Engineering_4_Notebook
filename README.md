@@ -26,3 +26,8 @@ else to say about this assignment, so here is my [code](https://github.com/arals
 This assignment was to create a program in Python that would spit back whatever input the user gave it letter by letter, split on spaces. I split the input on spaces, giving me a list of strings. For every element
 of the list, I used the list() command on that element. That split the strings into lists of single characters, which I then printed in a for loop. After printing out the letters of a word, I printed three dashes
 if it was not the last word in the overall list. Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/stringsAndLoops.py).
+
+### GPIO Pins - Bash
+This assignment was to blink two LEDs 10 times with the GPIO pins on the Pi using a bash script. I soldered male connectors to the Pi and hooked it up to a t-cobbler using a ribbon connector. From there, all I had to do
+was wire up two LEDs like normal (the only issue being the different numbering of the pins in the bash script and on the t-cobbler) and write the simple script. Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Scripts/gpioLED.sh)
+and a useful [website](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) with pin diagrams to use for the bash scripts. This becomes unneccessary in Python with the GPIO.setmode() function.
