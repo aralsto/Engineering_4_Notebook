@@ -36,4 +36,4 @@ and a useful [website](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) 
 This was exactly the same as the last assignment, but in python. The only thing to note is that I used GPIO.setmode(BCM) in order to get the pin numbers to match up with the t-cobbler. Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/gpioLED_Python.py)
 
 ### Hello Flask
-This assignment was to create a flask app that spits out "Hello world!" when you access it from another computer. It was pretty straight forward, here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/app.py).
+This assignment was to create a flask app that spits out "Hello world!" when you access it from another computer. It was pretty straight forward, here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/Flask/hello_world/app.py).
