@@ -3,24 +3,10 @@
 <head>
 	<title>GPIO with Flask!</title>
 </head>
-<body>
+<body style="background-color: {{color}};">
 <form method="POST">
 	<button type="submit" name="button1" value="on">Red LED</button>
 	<button type="submit" name="button2" value="on">Blue LED</button>
 </form>
-<script>
-if(led1 && led2){
-document.body.style.backgroundColor = "purple";
-}
-if(led1 && !led2){
-document.body.style.backgroundColor = "red";
-}
-if(!led1 && led2){
-document.body.style.backgroundColor = "blue";
-}
-if(!led1 && !led2){
-document.body.style.backgroundColor = "black";
-}
-</script>
 </body>
 </html>

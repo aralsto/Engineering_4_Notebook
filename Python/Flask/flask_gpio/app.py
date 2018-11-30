@@ -23,14 +23,22 @@ def index():
 
 	if led1:
 		GPIO.output(17,GPIO.HIGH)
+		if led2:
+			color = "purple"
+		else:
+			color = "red"
 	else:
 		GPIO.output(17,GPIO.LOW)
+		if led2:
+			color = "blue"
+		else:
+			color = "black"
 	if led2:
 		GPIO.output(22,GPIO.HIGH)
 	else:
 		GPIO.output(22,GPIO.LOW)
 
-	return render_template("index.html")
+	return render_template("index.html", color=color)
 
 if __name__ == "__main__":
 	app.run(host="0.0.0.0", port=80)
