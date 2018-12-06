@@ -1,3 +1,4 @@
+#Headless
 #GPIO Pins -I2C
 #imports
 import time
@@ -30,12 +31,15 @@ draw = ImageDraw.Draw(image)
 
 font = ImageFont.load_default()
 
-#initializing accelerometer and variables
+#initializing accelerometer and its variables
 lsm303 = Adafruit_LSM303.LSM303()
 accelInitialized = None
 accelInitCount = 0
 accelInitSum = 0
 accelConst = 0
+
+#data set
+data = []
 
 #main loop
 while True:
