@@ -42,3 +42,7 @@ This assignment was to create a flask app that spits out "Hello world!" when you
 This assignment was to create a flask app that allowed you to control the two LEDs that were set up in the GPIO Pins - Bash and GPIO Pins - Python assignments. The challenge was working with HTML, which I hadn't
 had much experience with previously. I got two buttons on the website controlling the LEDs pretty fast, then it took me another period or so to figure out how to have the background color of the webpage reflect what LEDs
 were on or off. Here is my [code for the app](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/Flask/flask_gpio/app.py) and here is my [html](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/Flask/flask_gpio/templates/index.html).
+
+### GPIO Pins - I2C
+This assignment was to set up an LSM303 accelerometer and an SSD1306 OLED screen and display the accelerometer data on the screen. I had to solder pins to both devices, as well as download libraries for them. There was
+example code in the libraries, so from there it was very easy to get them doing what I needed. There isn't too much else to say, so here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/GPIO_I2C.py).
