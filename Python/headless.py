@@ -66,13 +66,22 @@ while True:
         accel_x = round((accel_x*accelConst),3)
         accel_y = round((accel_y*accelConst),3)
         accel_z = round((accel_z*accelConst),3)
+        
         #display accelerometer data
         draw.rectangle((0,0,width,height), outline=0, fill=0)
 
-        draw.text((0,0), 'X accel: '+str(accel_x), font=font, fill=255)
-        draw.text((0,10), 'Y accel: '+str(accel_y), font=font, fill=255)
-        draw.text((0,20), 'Z accel: '+str(accel_z), font=font, fill=255)
+        #draw.text((0,0), 'X accel: '+str(accel_x), font=font, fill=255)
+        #draw.text((0,10), 'Y accel: '+str(accel_y), font=font, fill=255)
+        #draw.text((0,20), 'Z accel: '+str(accel_z), font=font, fill=255)
+        
+        if len(data) >= 118:
+            data.pop(0)
+        
+        data.append(accel_y)
+        
+        for i in range(0,len(data)):
+            draw.point(((i+5),(32+int(data[i]/0.4))), fill=255)
 
+        draw.text((0,20), 'Y Acceleration '+str(accel_z), font=font, fill=255)
         disp.image(image)
         disp.display()
-        time.sleep(0.1)
