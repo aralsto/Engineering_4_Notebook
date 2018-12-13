@@ -80,8 +80,8 @@ while True:
         data.append(accel_y)
         
         for i in range(0,len(data)):
-            draw.point(((i+5),(32+int(data[i]/0.4))), fill=255)
+            draw.point(((i+5),(36+int(data[i]/0.4))), fill=255)
 
-        draw.text((0,20), 'Y Acceleration '+str(accel_z), font=font, fill=255)
+        draw.text((0,0), 'Y Acceleration '+str(accel_y), font=font, fill=255)
         disp.image(image)
         disp.display()

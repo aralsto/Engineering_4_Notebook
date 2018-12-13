@@ -46,3 +46,9 @@ were on or off. Here is my [code for the app](https://github.com/aralsto/Enginee
 ### GPIO Pins - I2C
 This assignment was to set up an LSM303 accelerometer and an SSD1306 OLED screen and display the accelerometer data on the screen. I had to solder pins to both devices, as well as download libraries for them. There was
 example code in the libraries, so from there it was very easy to get them doing what I needed. There isn't too much else to say, so here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/GPIO_I2C.py).
+
+### Headless
+This assignment was to create a similar program to the last assignment to be used wirelessly. I made a python program that displayed a graph of the data from one axis.
+I simply store a list of the data points and draw a dot corresponding to their position in the list and their value. Once I geta certain number of data points,
+I start popping the 0 element to move all the data to the left. As for the wireless portion of the assignment, I opted to simply hook up a 3.7v battery to the pi and ssh into it from my chromebook.
+Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/headless.py).
