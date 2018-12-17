@@ -7,10 +7,13 @@ camera.resolution = (1024,768)
 camera.framerate = 24
 
 camera.start_preview()
-
-for i in range(1,9):
-    camera.annotate_text = 'Effect: ' + str(i)
-    sleep(2)
+c = 0
+for e in camera.IMAGE_EFFECTS:
+    camera.image_effect = e
+    camera.annotate_text = 'Effect: ' + e
+    sleep(5)
+    if c < 5:
+        camera.capture('/home/pi/Documents/Engineering_4_Notebook/Python/Pics/%s.jpg' % e)
+    c += 1
 camera.stop_preview()
 camera.close()
-    
