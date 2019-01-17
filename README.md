@@ -52,3 +52,11 @@ This assignment was to create a similar program to the last assignment to be use
 I simply store a list of the data points and draw a dot corresponding to their position in the list and their value. Once I geta certain number of data points,
 I start popping the 0 element to move all the data to the left. As for the wireless portion of the assignment, I opted to simply hook up a 3.7v battery to the pi and ssh into it from my chromebook.
 Here is my [code](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/headless.py).
+
+### Pi Camera
+This was actually 3 assignments in one! The first was just to open a live preview of the camera on screen for 10 seconds. [Here](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/camera_test01.py) is the code for that assignment.
+The second portion of the assignment was to pull up the preview, cycle through a bunch of effects, print the efect name to the screen, and take 5 pictures of different effects as they are cycling. [Here](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/camera_test_02.py) is the code for that. Finally I had to make the camera record 10 seconds of video, then convert it to a useable format using MP4Box. After converting, you can play it using omxplayer. [Here](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/camera_test03.py) is that final code.
+
+### Hack Your Stuff
+This assignment was to rip apart a noise maker and wire it up to a pi. I opted to connect the pi's voltage source to the noise maker board with a transistor, and let current through only when a button (also wired to the pi) was pressed.
+[Here](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/hack_your_stuff.py) is my code.
