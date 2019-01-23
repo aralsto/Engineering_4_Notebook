@@ -60,3 +60,7 @@ The second portion of the assignment was to pull up the preview, cycle through a
 ### Hack Your Stuff
 This assignment was to rip apart a noise maker and wire it up to a pi. I opted to connect the pi's voltage source to the noise maker board with a transistor, and let current through only when a button (also wired to the pi) was pressed.
 [Here](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/hack_your_stuff.py) is my code.
+
+### Parent Detector
+This assignment was to have the pi start recording on its camera for 10 seconds once it is triggered by a motion sensor. I ended up using a button to trigger it, as the sensor was being finicky and always triggering, no
+matter if there was motion or not. [Here](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/parent_detector.py) is my code.
