@@ -5,8 +5,7 @@ from time import sleep
 camera = PiCamera()
 camera.resolution = (1024,768)
 camera.framerate = 24
-
-keepers = ['gpen', 'hatch', 'oilpaint', 'emboss', 'negative']
+s = ['gpen', 'hatch', 'oilpaint', 'emboss', 'negative']
 camera.start_preview()
 
 for e in camera.IMAGE_EFFECTS:
