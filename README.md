@@ -64,3 +64,7 @@ This assignment was to rip apart a noise maker and wire it up to a pi. I opted t
 ### Parent Detector
 This assignment was to have the pi start recording on its camera for 10 seconds once it is triggered by a motion sensor. I ended up using a button to trigger it, as the sensor was being finicky and always triggering, no
 matter if there was motion or not. [Here](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/parent_detector.py) is my code.
+
+### Stop Motion
+This assignment was to make a stop motion video with the pi. I wired up a button to the GPIO pins of the pi, and had it trigger the camera when the button was pressed. All of the pictures were named in the form "frameXYZ.jpg"
+so that a video could be easily generated from them. I had to use avconv to convert the pictures to the h264 format, and MP4Box to convert that video to an mp4. One limitation I found was that if the framerate chosen in avonv and MP4Box was higher than the number of frames in the video, omxplayer wouldn't play the mp4 at all, so that is something to watch out for. [Here](https://github.com/aralsto/Engineering_4_Notebook/blob/master/Python/stop_motion.py) is my code.
