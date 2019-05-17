@@ -1,6 +1,13 @@
 # Engineering 4 Notebook
 This is where all my stuff will go.
 
+## What I Have Learned
+1) If anything in Solidworks is blue it's going to break.
+2) Fixing issues will always take at least 3 times as long as anticipated.
+3) Actually working makes you finish projects with some semblance of being on schedule.
+4) Comment code as you write it so you don't have to decipher what you've done later.
+5) Arduino sucks.
+
 ## Assignments
 This is where all of my assignments I do for the year will be documented.
 
